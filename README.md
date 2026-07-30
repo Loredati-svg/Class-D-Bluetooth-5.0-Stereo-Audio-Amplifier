@@ -1,11 +1,10 @@
 # 🎵 High-Fidelity Class-D Bluetooth 5.0 Stereo Audio Amplifier (2x50W)
 
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![KiCad 9.0](https://img.shields.io/badge/KiCad-9.0-blue?logo=kicad&logoColor=white)
 ![Hardware Rev](https://img.shields.io/badge/Hardware%20Rev-v1.0-brightgreen)
 ![License](https://img.shields.io/badge/License-CERN--OHL--P-orange)
-![PCB Layers](https://img.shields.io/badge/PCB%20Layers-2--Layer-purple)
-![Audio Output](https://img.shields.io/badge/Output-2x50W%20%40%204%CE%A9-red)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+
 
 A complete, fully engineered Open-Source Hardware project developed in **KiCad 9.0** for building a high-fidelity **Class-D** stereo audio amplifier featuring an integrated **Bluetooth 5.0 HD** receiver and I2S DAC.
 
