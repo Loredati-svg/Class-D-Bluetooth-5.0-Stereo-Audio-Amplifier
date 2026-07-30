@@ -1,13 +1,13 @@
 # 🎵 High-Fidelity Class-D Bluetooth 5.0 Stereo Audio Amplifier (2x50W)
 
-![KiCad 8.0](https://img.shields.io/badge/KiCad-8.0-blue?logo=kicad&logoColor=white)
+![KiCad 9.0](https://img.shields.io/badge/KiCad-8.0-blue?logo=kicad&logoColor=white)
 ![Hardware Rev](https://img.shields.io/badge/Hardware%20Rev-v1.0-brightgreen)
 ![License](https://img.shields.io/badge/License-CERN--OHL--P-orange)
 ![PCB Layers](https://img.shields.io/badge/PCB%20Layers-2--Layer-purple)
 ![Audio Output](https://img.shields.io/badge/Output-2x50W%20%40%204%CE%A9-red)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-A complete, fully engineered Open-Source Hardware project developed in **KiCad 8.0** for building a high-fidelity **Class-D** stereo audio amplifier featuring an integrated **Bluetooth 5.0 HD** receiver and I2S DAC.
+A complete, fully engineered Open-Source Hardware project developed in **KiCad 9.0** for building a high-fidelity **Class-D** stereo audio amplifier featuring an integrated **Bluetooth 5.0 HD** receiver and I2S DAC.
 
 Designed to drive passive speakers (4Ω - 8Ω) with up to **2x50W RMS** output power into a 4Ω load powered by a 24V DC supply.
 
@@ -64,7 +64,7 @@ git clone --recurse-submodules [https://github.com/TUO-USERNAME/NOME-REPO-AMPLIF
 
 ## 📐 PCB Design and Layout (KiCad)
 
-PCB design choices in KiCad 8.0 adhere to best EMC/EMI and signal integrity practices:
+PCB design choices in KiCad 9.0 adhere to best EMC/EMI and signal integrity practices:
 
 1. **2-Layer Stackup (FR4 - 1.6mm - 1oz/2oz Copper):**
    * **Top Layer:** Audio signal traces, main power routing (high-current power traces > 2.5mm), and SMD components.
