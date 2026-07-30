@@ -4,6 +4,8 @@
 *-bak2
 *.tmp
 *.lck
+*.bak
+fp-info-cache
 
 # Preferenze utente locali di KiCad
 *.kicad_prl
