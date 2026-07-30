@@ -1,0 +1,12 @@
+# KiCad backup e file temporanei
+*-backups/
+*-bak
+*-bak2
+*.tmp
+*.lck
+
+# Preferenze utente locali di KiCad
+*.kicad_prl
+
+# Cartella di auto-salvataggio
+auto-save/
