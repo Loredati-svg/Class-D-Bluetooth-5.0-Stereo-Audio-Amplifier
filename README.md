@@ -1,4 +1,4 @@
-# 🎵 High-Fidelity Class-D Bluetooth 5.0 Stereo Audio Amplifier (2x50W)
+# 🎵 Hi-Fi Class-D Bluetooth 5.0 Stereo Audio Amplifier (2x50W)
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![KiCad 9.0](https://img.shields.io/badge/KiCad-9.0-blue?logo=kicad&logoColor=white)
@@ -6,9 +6,9 @@
 ![License](https://img.shields.io/badge/License-CERN--OHL--P-orange)
 
 
-A complete, fully engineered Open-Source Hardware project developed in **KiCad 9.0** for building a high-fidelity **Class-D** stereo audio amplifier featuring an integrated **Bluetooth 5.0 HD** receiver and I2S DAC.
+A complete Open-Source Hardware project developed in **KiCad 9.0** for building a Hi-Fi **Class-D** stereo audio amplifier featuring an integrated **Bluetooth 5.0 HD** receiver and I2S DAC.
 
-Designed to drive passive speakers (4Ω - 8Ω) with up to **2x50W RMS** output power into a 4Ω load powered by a 24V DC supply.
+Designed to drive passive speakers with up to **2x50W RMS** output power into a 4Ω load powered by a 24V DC supply.
 
 ---
 
@@ -31,9 +31,9 @@ Designed to drive passive speakers (4Ω - 8Ω) with up to **2x50W RMS** output p
 
 | Parameter | Value / Specification |
 | :--- | :--- |
-| **Supply Voltage (DC)** | 12V – 24V DC (24V 5A recommended for maximum output power) |
+| **Supply Voltage (DC)** | 24V DC ( 5A recommended for maximum output power) |
 | **Main Amplifier IC** | Texas Instruments **TPA3116D2** (Stereo Class-D) |
-| **RMS Output Power** | 2 x 50W @ 24V, 4Ω / 2 x 30W @ 24V, 8Ω |
+| **RMS Output Power** | 2 x 50W @ 24V, 4Ω |
 | **Power Efficiency** | > 90% (low thermal dissipation) |
 | **Bluetooth Module** | Qualcomm **QCC3008** (Bluetooth 5.0, aptX, aptX-LL, A2DP) |
 | **Audio DAC** | Texas Instruments **PCM5102A** (24-bit / 192kHz I2S) |
@@ -47,18 +47,9 @@ Designed to drive passive speakers (4Ω - 8Ω) with up to **2x50W RMS** output p
 ---
 
 
-## 📚 Centralized Library Management
+## 📚 Library Management
 
-This project relies on a centralized component library containing all Symbols, Footprints, 3D Models, and Datasheets, hosted at [`Loredati-svg/Kicad_Library`](https://github.com/Loredati-svg/Kicad_Library.git).
-The library is integrated directly into the `Library/` directory as a **Git Submodule**.
-
-### How to Clone This Repository (With Library)
-
-To clone this amplifier project along with the library in a single command, use the `--recurse-submodules` flag:
-
-```bash
-git clone --recurse-submodules [https://github.com/TUO-USERNAME/NOME-REPO-AMPLIFICATORE.git](https://github.com/TUO-USERNAME/NOME-REPO-AMPLIFICATORE.git)
-```
+This project relies on a dedicated library containing all Symbols, Footprints, 3D Models, and Datasheets.
 
 
 ## 📐 PCB Design and Layout (KiCad)
@@ -84,11 +75,11 @@ PCB design choices in KiCad 9.0 adhere to best EMC/EMI and signal integrity prac
 │   ├── Audio_Amp_v1.kicad_pcb    # PCB Layout
 │   └── Audio_Amp_v1.xml          # Exported BOM
 ├── libs/
-│   └── kicad-components-lib/      # 🔗 Git Submodule -> Link to centralized library repo
-│       ├── symbols/               # Custom KiCad symbols
-│       ├── footprints.pretty/     # Footprints
-│       ├── 3dmodels/              # STEP / WRL 3D Models
-│       └── datasheets/            # PDF Datasheets
+│   └── Kicad_Library/             # Library folder of the project
+│       ├── Audio_amplifier/       # Power Amplifier ICs
+│       ├── DCDC-converters/       # DC-DC converters
+│       ├── Passives               # Passive components (with non standard footprint)
+│       └── WIP/                   # WIP
 ├── Production/                    # Pick&Place (CPL) and JLCPCB BOM files
 ├── 3D_Print_Case/                 # STL Enclosure models for 3D printing
 ├── LICENSE                        # CERN-OHL-P License
