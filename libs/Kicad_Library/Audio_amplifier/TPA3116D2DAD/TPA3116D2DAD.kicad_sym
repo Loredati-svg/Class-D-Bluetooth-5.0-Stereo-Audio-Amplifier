@@ -404,6 +404,24 @@
 				)
 			)
 			(pin passive line
+				(at 17.78 -45.72 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 35.56 21.59 180)
 				(length 5.08)
 				(name "PVCC_4"

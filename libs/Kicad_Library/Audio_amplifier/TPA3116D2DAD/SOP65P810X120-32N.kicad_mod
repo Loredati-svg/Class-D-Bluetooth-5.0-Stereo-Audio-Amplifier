@@ -6,7 +6,7 @@
 	(descr "DAD0032A")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at -2.5 -7 0)
 		(layer "F.SilkS")
 		(uuid "3c18b763-4ea0-4ce0-9c41-9792288c5376")
 		(effects
@@ -194,7 +194,7 @@
 		(uuid "074a05af-03d8-44eb-84e6-ff6f618a8568")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -9 0)
 		(layer "F.Fab")
 		(uuid "49e06fad-cb69-40d2-8273-9d7be597cc33")
 		(effects
@@ -395,6 +395,13 @@
 		(size 0.45 1.475)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7a1e3d70-9333-4b0d-8166-4729e7789473")
+	)
+	(pad "33" smd rect
+		(at 0 0)
+		(size 3.238124 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "ee7c4b3e-e126-4a90-af70-c9a42a3a24b3")
 	)
 	(embedded_fonts no)
 	(model "TPA3116D2DAD.stp"

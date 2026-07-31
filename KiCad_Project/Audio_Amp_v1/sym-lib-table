@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "LMR33630BDDA")(type "KiCad")(uri "C:/Users/lollo/Desktop/Hardware_Projects/Class-D-Bluetooth-5.0-Stereo-Audio-Amplifier/libs/Kicad_Library/DCDC-converters/LMR33630/LMR33630BDDA.kicad_sym")(options "")(descr ""))
   (lib (name "TPA3116D2DAD")(type "KiCad")(uri "C:/Users/lollo/Desktop/Hardware_Projects/Class-D-Bluetooth-5.0-Stereo-Audio-Amplifier/libs/Kicad_Library/Audio_amplifier/TPA3116D2DAD/TPA3116D2DAD.kicad_sym")(options "")(descr ""))
+  (lib (name "7443341000")(type "KiCad")(uri "C:/Users/lollo/Desktop/Hardware_Projects/Class-D-Bluetooth-5.0-Stereo-Audio-Amplifier/libs/Kicad_Library/Passives/Inductors/7443341000/7443341000.kicad_sym")(options "")(descr ""))
 )

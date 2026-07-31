@@ -1045,6 +1045,24 @@
 					)
 				)
 				(pin passive line
+					(at 17.78 -45.72 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 35.56 21.59 180)
 					(length 5.08)
 					(name "PVCC_4"
@@ -1779,6 +1797,12 @@
 		(uuid "4241116d-8135-4dde-8c68-58a91d94fc96")
 	)
 	(junction
+		(at 88.9 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "429ad87f-2270-4ad2-9828-9f4c8e340029")
+	)
+	(junction
 		(at 215.9 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2206,6 +2230,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 93.98) (xy 95.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d7eced-3a66-4246-9a9d-20f77c46f0e7")
+	)
+	(wire
+		(pts
 			(xy 67.31 107.95) (xy 67.31 106.68)
 		)
 		(stroke
@@ -2436,6 +2470,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 90.17) (xy 88.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39266870-ac6e-4fd1-9abf-5000c023f3f4")
+	)
+	(wire
+		(pts
 			(xy 76.2 87.63) (xy 76.2 93.98)
 		)
 		(stroke
@@ -2466,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 93.98) (xy 95.25 93.98)
+			(xy 76.2 93.98) (xy 88.9 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2843,6 +2887,16 @@
 			(type default)
 		)
 		(uuid "666a0e8b-b71b-45da-bed8-fede8819bc85")
+	)
+	(wire
+		(pts
+			(xy 113.03 139.7) (xy 113.03 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ae1e88-4aab-4c3e-84f2-1a8e81ce951f")
 	)
 	(wire
 		(pts
@@ -3363,6 +3417,16 @@
 			(type default)
 		)
 		(uuid "9e3c1ca5-af3a-4e34-8977-46196d57b177")
+	)
+	(wire
+		(pts
+			(xy 88.9 90.17) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e85ec41-8714-4bdd-9362-eddff8131a1c")
 	)
 	(wire
 		(pts
@@ -4297,7 +4361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.326 92.964 90)
 			(effects
 				(font
@@ -4429,7 +4493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 216.8652 63.5 0)
 			(effects
 				(font
@@ -4496,7 +4560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.1652 142.24 0)
 			(effects
 				(font
@@ -4563,7 +4627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 76.2 82.8548 0)
 			(effects
 				(font
@@ -4630,7 +4694,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 147.0152 50.8 0)
 			(effects
 				(font
@@ -4648,7 +4712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X7R - 50V"
 			(at 146.05 46.99 0)
 			(effects
 				(font
@@ -4765,7 +4829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.914 127.254 90)
 			(effects
 				(font
@@ -4834,7 +4898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.326 103.124 90)
 			(effects
 				(font
@@ -4901,7 +4965,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.71 53.0352 0)
 			(effects
 				(font
@@ -4944,74 +5008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 181.61 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ff2d4d7-7565-4eeb-a87e-afcac3b0b04f")
-		(property "Reference" "L4"
-			(at 181.61 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 181.61 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 181.61 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6678404-ec1c-419e-a2f9-77660a044401")
-		)
-		(pin "1"
-			(uuid "37e71afe-6530-4bf8-98d0-a659c6b93cb8")
-		)
-		(instances
-			(project "Audio_Amp_v1"
-				(path "/d992164b-b1d0-4285-be2c-12a40c17e5cc/bcd969c5-e603-453f-8e84-f4a0a5ebae98"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 144.78 143.51 0)
 		(unit 1)
@@ -5036,7 +5032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 145.7452 147.32 0)
 			(effects
 				(font
@@ -5054,7 +5050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X7R - 50V"
 			(at 144.78 143.51 0)
 			(effects
 				(font
@@ -5103,7 +5099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.1652 82.55 0)
 			(effects
 				(font
@@ -5170,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.58 79.0448 0)
 			(effects
 				(font
@@ -5345,6 +5341,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 181.61 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c32244b-4a88-445e-8d04-2e610df55a87")
+		(property "Reference" "L4"
+			(at 181.61 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 181.61 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7443341000:INDPM8479X720N"
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://7443341000.pdf"
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Induttori di potenza - SMD WE-HCC High Pwr 8070 10uH 4.4A 40.5mOhm"
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a021671-5392-4b21-81a2-cc4e565ca771")
+		)
+		(pin "1"
+			(uuid "867b9973-e192-4acb-9dc4-395898834655")
+		)
+		(instances
+			(project "Audio_Amp_v1"
+				(path "/d992164b-b1d0-4285-be2c-12a40c17e5cc/bcd969c5-e603-453f-8e84-f4a0a5ebae98"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.96 97.79 180)
 		(unit 1)
@@ -5369,7 +5433,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.9948 93.98 0)
 			(effects
 				(font
@@ -5436,7 +5500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.9052 147.32 0)
 			(effects
 				(font
@@ -5454,7 +5518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X7R - 50V"
 			(at 154.94 143.51 0)
 			(effects
 				(font
@@ -5569,7 +5633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.59 93.0148 0)
 			(effects
 				(font
@@ -5587,7 +5651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X7R - 50V"
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -5636,7 +5700,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 194.0052 58.42 0)
 			(effects
 				(font
@@ -5654,7 +5718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X7R - 50V"
 			(at 193.04 54.61 0)
 			(effects
 				(font
@@ -5703,7 +5767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 194.0052 118.11 0)
 			(effects
 				(font
@@ -5721,7 +5785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X7R - 50V"
 			(at 193.04 114.3 0)
 			(effects
 				(font
@@ -5770,7 +5834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.59 115.8748 0)
 			(effects
 				(font
@@ -5788,7 +5852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X7R - 50V"
 			(at 144.78 116.84 0)
 			(effects
 				(font
@@ -5837,7 +5901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.59 100.6348 0)
 			(effects
 				(font
@@ -5855,7 +5919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X7R - 50V"
 			(at 144.78 101.6 0)
 			(effects
 				(font
@@ -5906,7 +5970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 216.916 142.494 90)
 			(effects
 				(font
@@ -5975,7 +6039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EEE-FK1H221GV:EEHZT1E561UV"
 			(at 163.83 143.51 0)
 			(effects
 				(font
@@ -5984,7 +6048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://ABA0000C1181.pdf"
 			(at 163.83 143.51 0)
 			(effects
 				(font
@@ -5993,7 +6057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Condensatori elettrolitici in alluminio - SMD 50VDC 220uF 20% Anti-Vibe AEC-Q200"
 			(at 163.83 143.51 0)
 			(effects
 				(font
@@ -6108,7 +6172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 194.0052 142.24 0)
 			(effects
 				(font
@@ -6126,7 +6190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X7R - 50V"
 			(at 193.04 138.43 0)
 			(effects
 				(font
@@ -6175,7 +6239,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.31 112.7252 0)
 			(effects
 				(font
@@ -6310,7 +6374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 75.946 59.944 90)
 			(effects
 				(font
@@ -6377,7 +6441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 216.8652 123.19 0)
 			(effects
 				(font
@@ -6420,6 +6484,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 181.61 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bea0cd6-19ce-406b-a7d6-5ea33080b59a")
+		(property "Reference" "L2"
+			(at 181.61 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 181.61 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7443341000:INDPM8479X720N"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://7443341000.pdf"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Induttori di potenza - SMD WE-HCC High Pwr 8070 10uH 4.4A 40.5mOhm"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70a08504-f11a-4699-bc7d-7fde3223565d")
+		)
+		(pin "1"
+			(uuid "def3b2d8-90da-43a0-9155-daa6712c8494")
+		)
+		(instances
+			(project "Audio_Amp_v1"
+				(path "/d992164b-b1d0-4285-be2c-12a40c17e5cc/bcd969c5-e603-453f-8e84-f4a0a5ebae98"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 165.1 46.99 0)
 		(unit 1)
@@ -6446,7 +6578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EEE-FK1H221GV:EEHZT1E561UV"
 			(at 165.1 46.99 0)
 			(effects
 				(font
@@ -6455,7 +6587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://ABA0000C1181.pdf"
 			(at 165.1 46.99 0)
 			(effects
 				(font
@@ -6464,7 +6596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Condensatori elettrolitici in alluminio - SMD 50VDC 220uF 20% Anti-Vibe AEC-Q200"
 			(at 165.1 46.99 0)
 			(effects
 				(font
@@ -6579,7 +6711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 157.1752 50.8 0)
 			(effects
 				(font
@@ -6597,7 +6729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X7R - 50V"
 			(at 156.21 46.99 0)
 			(effects
 				(font
@@ -6714,7 +6846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 216.916 49.784 90)
 			(effects
 				(font
@@ -6751,74 +6883,6 @@
 			(project "Audio_Amp_v1"
 				(path "/d992164b-b1d0-4285-be2c-12a40c17e5cc/bcd969c5-e603-453f-8e84-f4a0a5ebae98"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 181.61 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9774437b-931c-4880-98b0-03f0d6da7739")
-		(property "Reference" "L2"
-			(at 181.61 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 181.61 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 181.61 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d307bf2-0ff3-4fe0-9adb-04d2fcc9233e")
-		)
-		(pin "1"
-			(uuid "ab1b248c-1c26-40a7-9b0c-dd975a4a084f")
-		)
-		(instances
-			(project "Audio_Amp_v1"
-				(path "/d992164b-b1d0-4285-be2c-12a40c17e5cc/bcd969c5-e603-453f-8e84-f4a0a5ebae98"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -6917,7 +6981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 84.074 51.054 90)
 			(effects
 				(font
@@ -7127,7 +7191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpa3116d2.pdf"
+		(property "Datasheet" "kicad-embed://tpa3116d2.pdf"
 			(at 127 287.63 0)
 			(effects
 				(font
@@ -7292,6 +7356,9 @@
 		(pin "18"
 			(uuid "196b4538-a527-4a31-bb40-8b7cdf55c6d3")
 		)
+		(pin "33"
+			(uuid "c3b1fae5-6bd5-4db3-8e58-e1566099069a")
+		)
 		(instances
 			(project ""
 				(path "/d992164b-b1d0-4285-be2c-12a40c17e5cc/bcd969c5-e603-453f-8e84-f4a0a5ebae98"
@@ -7326,7 +7393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 65.0748 44.45 0)
 			(effects
 				(font
@@ -7393,7 +7460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 216.8652 76.2 0)
 			(effects
 				(font
@@ -7436,74 +7503,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 181.61 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1ff1368-ceb8-4b6f-b821-56d796902a5d")
-		(property "Reference" "L3"
-			(at 181.61 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 181.61 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d591dd3-53b3-4380-a69b-262c716c83ba")
-		)
-		(pin "1"
-			(uuid "bf4b8cb6-188e-4d14-8779-a11081873baf")
-		)
-		(instances
-			(project "Audio_Amp_v1"
-				(path "/d992164b-b1d0-4285-be2c-12a40c17e5cc/bcd969c5-e603-453f-8e84-f4a0a5ebae98"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 215.9 132.08 0)
 		(unit 1)
@@ -7528,7 +7527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 216.8652 135.89 0)
 			(effects
 				(font
@@ -7571,6 +7570,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 181.61 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2e30431-a166-4405-9967-fb4ed724d0d4")
+		(property "Reference" "L3"
+			(at 181.61 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7443341000:INDPM8479X720N"
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://7443341000.pdf"
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Induttori di potenza - SMD WE-HCC High Pwr 8070 10uH 4.4A 40.5mOhm"
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84f466fd-c868-4f3d-b41e-04d10b5b613b")
+		)
+		(pin "1"
+			(uuid "8c65e1a0-56fc-4693-b8d9-1056eab5b336")
+		)
+		(instances
+			(project "Audio_Amp_v1"
+				(path "/d992164b-b1d0-4285-be2c-12a40c17e5cc/bcd969c5-e603-453f-8e84-f4a0a5ebae98"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 203.2 54.61 0)
 		(unit 1)
@@ -7595,7 +7662,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.1652 58.42 0)
 			(effects
 				(font
@@ -7632,6 +7699,72 @@
 			(project "Audio_Amp_v1"
 				(path "/d992164b-b1d0-4285-be2c-12a40c17e5cc/bcd969c5-e603-453f-8e84-f4a0a5ebae98"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 113.03 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d489eb9a-11ea-4190-8bb3-21bf59684640")
+		(property "Reference" "#PWR018"
+			(at 113.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 113.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28528b46-fc03-4a98-b189-01fb64ea48b5")
+		)
+		(instances
+			(project "Audio_Amp_v1"
+				(path "/d992164b-b1d0-4285-be2c-12a40c17e5cc/bcd969c5-e603-453f-8e84-f4a0a5ebae98"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7728,7 +7861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.59 77.7748 0)
 			(effects
 				(font
@@ -7737,7 +7870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 144.78 78.74 0)
 			(effects
 				(font
@@ -7746,7 +7879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X7R - 50V"
 			(at 144.78 78.74 0)
 			(effects
 				(font
@@ -7862,7 +7995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 216.916 109.474 90)
 			(effects
 				(font
@@ -7929,7 +8062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.1652 118.11 0)
 			(effects
 				(font
@@ -7996,7 +8129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 194.0052 82.55 0)
 			(effects
 				(font
@@ -8014,7 +8147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X7R - 50V"
 			(at 193.04 78.74 0)
 			(effects
 				(font
@@ -8065,7 +8198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 216.916 82.804 90)
 			(effects
 				(font
@@ -8133,7 +8266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "7443341000:INDPM8479X720N"
 			(at 181.61 41.91 0)
 			(effects
 				(font
@@ -8142,7 +8275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://7443341000.pdf"
 			(at 181.61 41.91 0)
 			(effects
 				(font
@@ -8151,7 +8284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Induttori di potenza - SMD WE-HCC High Pwr 8070 10uH 4.4A 40.5mOhm"
 			(at 181.61 41.91 0)
 			(effects
 				(font
@@ -8266,7 +8399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.69 116.5352 0)
 			(effects
 				(font
