@@ -8,4 +8,5 @@
   (lib (name "TS_103_T_A")(type "KiCad")(uri "C:/Users/lollo/Desktop/Hardware_Projects/Class-D-Bluetooth-5.0-Stereo-Audio-Amplifier/libs/Kicad_Library/Connectors/TS_103_T_A")(options "")(descr ""))
   (lib (name "PCM2704CDB")(type "KiCad")(uri "C:/Users/lollo/Desktop/Hardware_Projects/Class-D-Bluetooth-5.0-Stereo-Audio-Amplifier/libs/Kicad_Library/DAC/PCM2704CDB")(options "")(descr ""))
   (lib (name "USB_C")(type "KiCad")(uri "C:/Users/lollo/Desktop/Hardware_Projects/Class-D-Bluetooth-5.0-Stereo-Audio-Amplifier/libs/Kicad_Library/Connectors/USB_C")(options "")(descr ""))
+  (lib (name "ABM8-12.000MHZ-12-B1U-T")(type "KiCad")(uri "C:/Users/lollo/Desktop/Hardware_Projects/Class-D-Bluetooth-5.0-Stereo-Audio-Amplifier/libs/Kicad_Library/Crystal_oscillator/ABM8-12.000MHZ-12-B1U-T")(options "")(descr ""))
 )
