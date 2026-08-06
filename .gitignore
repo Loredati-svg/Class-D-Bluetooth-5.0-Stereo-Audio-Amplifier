@@ -11,4 +11,4 @@ fp-info-cache
 *.kicad_prl
 
 # Cartella di auto-salvataggio
-auto-save/
+auto-save/KiCad_Project/Audio_Amp_v1/.history/
