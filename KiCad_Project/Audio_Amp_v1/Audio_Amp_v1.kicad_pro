@@ -661,7 +661,7 @@
         "uuid": "d992164b-b1d0-4285-be2c-12a40c17e5cc"
       }
     ],
-    "used_designators": "C47-49,C64,L5,#PWR46-48,CIN1,#FLG1-3,J2-4,CHF1,CFF1",
+    "used_designators": "C47-49,C64,L5,#PWR46-48,J2-4,CIN1,#FLG1-3,CHF1,CFF1,TP3-4",
     "variants": []
   },
   "sheets": [
